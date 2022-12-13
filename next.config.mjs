@@ -14,7 +14,7 @@ const config = {
     defaultLocale: "en",
   },
   images: {
-    domains: ["w7.pngwing.com"]
+    domains: ["w7.pngwing.com", "www.google.dk"]
   }
 };
 export default config;
