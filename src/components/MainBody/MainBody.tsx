@@ -6,7 +6,7 @@ import { TiMicrophone } from "react-icons/ti";
 
 export default function MainBody() {
   return (
-    <form className="flex w-full flex-col items-center">
+    <form className="flex w-4/5 flex-col items-center rounded-full">
       <Image
         src="https://www.google.dk/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
         alt="main logo"
@@ -17,7 +17,7 @@ export default function MainBody() {
         <BiSearchAlt2 className="text-2xl" />
         <input
           type="text"
-          className="flex-grow p-2 focus:outline-none"
+          className="flex-grow rounded-full p-2 focus:outline-none"
           placeholder="Search..."
         />
         <TiMicrophone className="text-2xl" />
