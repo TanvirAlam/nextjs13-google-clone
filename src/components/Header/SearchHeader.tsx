@@ -4,6 +4,7 @@ import { useRef } from "react";
 import { GiSkullCrossedBones } from "react-icons/gi";
 import { FaMicrophone, FaSearchDollar } from "react-icons/fa";
 import Avater from "../Avater/Avater";
+import HeaderOptions from "./HeaderOptions";
 
 type Props = {};
 
@@ -52,6 +53,7 @@ export default function SearchHeader({}: Props) {
           url="https://w7.pngwing.com/pngs/340/946/png-transparent-avatar-user-computer-icons-software-developer-avatar-child-face-heroes-thumbnail.png"
         />
       </div>
+      <HeaderOptions />
     </header>
   );
 }
