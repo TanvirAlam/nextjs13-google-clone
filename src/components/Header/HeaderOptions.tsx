@@ -14,7 +14,7 @@ type Props = {};
 
 export default function HeaderOptions({}: Props) {
   return (
-    <div className="test-sm flex w-full justify-evenly border-b-[1px] text-gray-700 lg:justify-start lg:space-x-36 lg:pl-52 lg:text-base">
+    <div className="test-sm flex w-full justify-evenly border-b text-gray-700 lg:justify-start lg:space-x-36 lg:pl-52 lg:text-base">
       <div className="flex space-x-6">
         <HeaderOption Icon={HiOutlineSearchCircle} title="Search" selected />
         <HeaderOption Icon={HiPlay} title="Play" />
