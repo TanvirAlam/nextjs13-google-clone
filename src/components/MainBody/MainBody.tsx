@@ -22,7 +22,7 @@ export default function MainBody() {
         />
         <TiMicrophone className="text-2xl" />
       </div>
-      <div className="mt-5 flex w-1/2 flex-col justify-center gap-5 sm:flex-row sm:space-y-0 sm:space-x-4">
+      <div className="mt-5 flex flex-col justify-center gap-5 sm:flex-row sm:space-y-0 sm:space-x-4">
         <button className="cusBtn">Google Search</button>
         <button className="cusBtn">Im Feeling lucky</button>
       </div>
