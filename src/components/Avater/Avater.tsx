@@ -5,16 +5,19 @@ import { FaUserTie } from "react-icons/fa";
 
 type Props = {
   url: string;
+  mlAuto: string;
 };
 
-export default function Avater({ url }: Props) {
+export default function Avater({ url, mlAuto }: Props) {
+  console.log(mlAuto);
+
   return url ? (
     <Image
       loading="lazy"
       src={url}
       alt="Avater"
-      className="transform animate-pulse cursor-pointer rounded-full transition duration-150 hover:scale-110"
-      width={40}
+      className={`transform animate-pulse cursor-pointer rounded-full transition duration-150 hover:scale-110 ${mlAuto}`}
+      width={55}
       height={40}
     />
   ) : (
